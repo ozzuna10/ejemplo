@@ -33,8 +33,8 @@
                     </div>
                     <!-- Icono de las redes sociales-->
                     <div class="redes">
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                        <a href="https://www.facebook.com/veritto.chavez.7/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/malikofficialok/"><i class="fa-brands fa-instagram" target="_blank"></i></a>
                     </div>
                 </div>
             </header>
@@ -243,7 +243,7 @@
         <h3>Mis formas de Contacto</h3>
             <!-- Icono de las redes sociales-->
                 <div>
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/veritto.chavez.7/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.instagram.com/malikofficialok/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     <p>Correo: malikkhadimgadiagachavez@gmail.com</p>
                 </div>
