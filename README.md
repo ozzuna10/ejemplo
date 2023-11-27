@@ -1,206 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog de Anime</title>
-  <!-- Font -->
-  <link href="" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  <!-- CUSTOM CSS -->
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stile.css"/>
+    <!-- En el head del HTML -->
+    <script src="script.js"></script>
+    <title>Portafolio de Malik Chavez</title>
 </head>
+<body> 
+    <!-- Seccion de inicio-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/MG/</h1>
+                    <nav id="nav" class="">
+                        <ul>
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                            <li><a href="#Sobremi" onclick="seleccionar(this)">Sobre mi</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">Servicios</a></li>
+                            <li><a href="#Portafolio" onclick="seleccionar(this)">Portafolio</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                            <li><a href="#skill" onclick="seleccionar(this)">Habilidades</a></li>
+                            <li><a href="#aprender" onclick="seleccionar(this)">Habilidades por aprender</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Iconos del menu responsive-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!-- Icono de las redes sociales-->
+                    <div class="redes">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenida</p>
+                <h2> Hola soy Malik Khadin Gadiaga Chavez, Desarrollador web</h2>
+                <p class="descripcion">¡Bienvenidos a mi mundo digital! Exploro la belleza de la web a través del desarrollo front-end. ¡Sumérgete en mi portafolio y descubre cómo transformo ideas en experiencias cautivadoras! 🚀✨</p>
+                <a href="Portafolio">Ir al portafolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- Seccion sobre mi -->
+    <section id="Sobremi">
+        <div class="contenedor-foto">
+            <img src="imagenes/IMG-20200825-WA0403.jpg"/>
+        </div>
+        <div class="contenedor-texto">
+            <h2 class="titulo-seccion">Sobre mi</h2>
+            <h3>Hola, soy <span>Malik Khadim Gadiaga Chavez</span></h3>
+            <h4>Desarrollador web front end</h4>
+            <p>¡Hola! Soy un desarrollador web front-end apasionado por crear experiencias cautivadoras en sitios y juegos. Además de mi amor por la tecnología, disfruto conversar sobre economía, política social y jugar deportes como el básquet y juegos virtuales. Aunque soy introvertido, siempre estoy abierto a hacer nuevos amigos. ¡Explora mi mundo digital donde la tecnología y la pasión se encuentran! 🚀🎮</p>
+        </div>
+    </section>
+    <!-- Seccion de servicios -->
+    <seccion id="servicios">
+        <h3 class="titulo-seccion" > Mis servicios</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Optimización de Rendimiento Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p> "Mejoraré la velocidad de carga de tu sitio web para que tus visitantes tengan una experiencia más rápida y placentera. Trabajaré en la optimización del código para que tu sitio se destaque, cargue más rápido y deje una impresión duradera."</p>
 
-<body>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Desarrollo de Interfaz de Usuario (UI)</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p> "Diseñaré y desarrollaré una interfaz de usuario visualmente atractiva y fácil de usar. Mi enfoque es crear componentes que no solo se vean bien, sino que también hagan que la interacción con tu sitio sea sencilla y agradable."</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Adaptación Mobile-First</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p> "Aseguraré que tu sitio no solo sea atractivo en computadoras, sino que también proporcione una experiencia excepcional en dispositivos móviles. Implementaré estrategias de diseño para que tu contenido brille en todas las pantallas, llegando a más usuarios."</p>
+                
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Implementación de Animaciones Sutiles</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>"Añadiré un toque de vida a tu sitio con animaciones y detalles interactivos que cautivarán a tus visitantes. Utilizaré técnicas modernas de CSS y JavaScript para crear transiciones suaves y microinteracciones que hagan que tu sitio se destaque."</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Integración de APIs Externas</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>"Ampliaré las capacidades de tu sitio web integrando datos y servicios externos. Esto te permitirá mostrar información actualizada en tiempo real, como redes sociales o datos relevantes de terceros, brindando a tus usuarios contenido fresco y atractivo."</p>
+                
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Mantenimiento y Actualizaciones</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p> "Me encargaré del mantenimiento regular de tu sitio web para que siempre esté en óptimas condiciones. Realizaré actualizaciones periódicas para asegurarme de que esté al día con las últimas tecnologías y prácticas de seguridad, garantizando un rendimiento constante."</p>
+                
+            </div>
+        </div>
+    </seccion> 
 
-  <div class="menu-btn">
-    <i class="fas fa-bars fa-2x"></i>
-  </div>
+    <!-- Seccion de habilidades -->
+    <div class="contenedor-skill" id="skill">
+        <h3>Habilidades</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>HTML y CSS</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-porcentaje1"></div>
+            </div>
+        </div>
 
-  <div class="container">
-    <!-- Navigation -->
-    <nav class="nav-main">
-      <!-- Brand -->
-      <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ghibli-totoro-1582741985.gif" width="100px">
-      <!-- Left Nav -->
-      <ul class="nav-menu">
-        <li>
-          <a href="#Animes Ganadores">Animes que ganaron este año</a>
-        </li>
-        <li>
-          <a href="#Animes del año">Animes del año</a>
-        </li>
-        <li>
-          <a href="#Mejor anime">Mejor animes</a>
-        </li>
-        <li>
-          <a href="#Mejores diseños de Personajes">Mejores diseños de Personajes</a>
-        </li>
-        <li>
-          <a href="#Mejores series nuevas animadas">Mejores series nuevas animadas</a>
-        </li>
-        <li>
-          <a href="#Paginas para ver anime">Paginas para ver Anime</a>
-        </li>
-      </ul>
-      
-      <!-- Right Nav -->
-      <ul class="nav-menu-right">
-        <li>
-          <a href="#">
-            <i class="fas fa-search"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <hr>
-
-    <!-- SHOWCASE -->
-    <header class="showcase">
-      <h2>Los animes mas vistos!</h2>
-      <p>Top anime más vistos de la historia estos son los animes mas vistos hasta el momento A fecha de 18 de febrero de 2022, Naruto era la serie de anime japonés que contaba con mayor popularidad entre la población. De hecho, un 27% de los encuestados la señaló como su favorita. Dragón Boll y One Piece se situaron en segunda y tercera posición, respectivamente.
-      </p>
-      <a href="" class="btn">
-        Para saber todo <i class="fas fa-chevron-right"></i>
-      </a>
-    </header>
-
-    <!-- NEWS CARDS -->
-    <div class="news-cards">
-      <div>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Naruto_logo.svg/200px-Naruto_logo.svg.png" alt="" />
-        <h3>Naruto serie completa.</h3>
-        <p>La obra narra la historia de un ninja huérfano adolescente llamado Naruto Uzumaki, cuyos padres murieron en el ataque del Zorro Demonio de Nueve Colas, y quien aspira a convertirse en Hokage (líder de su aldea) con el propósito de ser reconocido como alguien importante dentro de la aldea y entre sus compañeros.
-        </p>
-        <a target="-blank" href="https://naruto.fandom.com/es/wiki/Naruto_Wiki">Mas imformacion en <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="https://images.justwatch.com/poster/8599353/s718/death-note.%7Bformat%7D"alt="" />
-        <h3>Serie de Death Note.</h3>
-        <p>Death Note cuenta la historia de Light Yagami, un estudiante excepcional de secundaria que encuentra un misterioso cuaderno de notas el cual pertenece a un dios de la muerte también llamado shinigami que responde al nombre de Ryuk. El poder de este sobrenatural bloc de notas permite terminar con la vida de los demás.
-        </p>
-        <a target="-blank" href="https://deathnote.fandom.com/wiki/Death_Note_Wiki">Mas imformacion en <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="https://media.tenor.com/T1eXBzOKIU4AAAAM/one-punch-man-saitama.gif" alt="" />
-        <h3>Serie de One Punch Man.</h3>
-        <p>¿De qué trata One Punch-Man? La historia gira alrededor de un héroe llamado Saitama, el cual vive en la Ciudad Z de Japón. Todas las ciudades son atacadas por monstruos constantemente, y los héroes deben encargarse de proteger a los habitantes con sus habilidades eliminando a cada uno de los enemigos.
-        </p>
-        <a target="-blanck" href="https://onepunchman.fandom.com/es/wiki/Portada">Mas imformacion en <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/1dea4b0c71a1b3837e27077b93bfc217.jpe" alt="" />
-        <h3>Ataque a los Titanes (Shingeki no Kyojin)</h3>
-        <p>Attack on Titan (進撃の巨人 Shingeki no Kyojin) es un manga serializado escrito e ilustrado por Hajime Isayama. Cuenta la historia de la humanidad en una época con estética germana del siglo 19, luchando por sobrevivir durante los ataques de unos seres humanoides gigantes llamados titanes.
-        </p>
-        <a target="-blank" href="https://shingeki-no-kyojin.fandom.com/es/wiki/Shingeki_no_Kyojin_Wiki">Mas imformacion en <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="https://flxt.tmsimg.com/assets/p12923839_b_h9_aa.jpg" alt="" />
-        <h3>My Hero Academia (Boku no Hero Academia)</h3>
-        <p>My Hero Academia (僕のヒーローアカデミア Boku no Hīrō Academia ?, Mi Academia de Héroes), es un manga escrito e ilustrado por Kohei Horikoshi y publicado en la revista Weekly Shonen Jump el 7 de julio de 2014. ¡Tercera película de la serie en agosto de 2021 en Japón!.
-        </p>
-        <a target="-blanck" href="https://myheroacademia.fandom.com/es/wiki/My_Hero_Academia_Wiki">Mas imformacion en <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHyMTlJD6C1fk506uBCfae9lzZby7MzhE87w&usqp=CAU" alt="" />
-        <h3>Demon Slayer (Kimetsu no Yaiba)</h3>.
-        <p>La obra sigue las aventuras de Tanjirō Kamado, un adolescente cuya familia fue cruelmente asesinada por un Demonio el cual convirtió a su hermana Nezuko en una de estas criaturas, obligando a Tanjirō a emprender un viaje para cazar a estos seres y de paso ayudar a su hermana a recuperar su humanidad..
-        </p>
-        <a target="-blanck" href="https://kimetsu-no-yaiba.fandom.com/es/wiki/Kimetsu_no_Yaiba_Wiki">Mas imformacion en <i class="fas fa-angle-double-right"></i></a>
-      </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Java Script</p>
+                <span class="porcentaje">50%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="barra-porcentaje2"></div>
+            </div>
+        </div>
     </div>
 
-    <!-- Card Banner 1-->
-    <section class="cards-banner-one">
-      <div class="content">
-        <h2 id="Animes Ganadores">Los Animes Ganadores de los Crunchyroll Anime Awards.</h2>
-        <!-- lorem 20 -->
-        <p>breve descripción del tema.</p>
-        <p>Desde el año 2017, Crunchyroll viene acogiendo su propia gala de premios en la que reconoce “las mejores series y películas de anime” del curso anterior y rinde homenaje a sus creadores en una ceremonia presencial en el The Grand Prince Hotel de New Takanawa, en Tokio, Japón. La edición de este año, los sextos Crunchyroll Anime Awards 2023
-        <a target="_blanck" href="https://www.gamerfocus.co/anime/anime-awards-2023-todos-los-ganadores-de-la-gala-de-crunchyroll/" class="btn">Mas imformacion.<i class="fas fa-chevron-right"></i></a>
-      </div>
+<!-- Habilidades por aprender -->
+    <section class="contenedor-aprender" id="aprender">
+        <h3>Habilidades por aprender</h3>
+        <div class="hlidad">
+            <div class="hlb">
+                <h4 class="herramientas">Angular</h4>
+                <img src="imagenes/angular.jpg">
+            </div>
+        </div>
+
+        <div class="hlidad">
+            <div class="hlb">
+                <h4 class="herramientas">React</h4>
+                <img src="imagenes/React.jpg">
+            </div>
+        </div>
+
+        <div class="hlidad">
+            <div class="hlb">
+                <h4 class="herramientas">Python</h4>
+                <img src="imagenes/python.jpg">
+            </div>
+        </div>
     </section>
 
-    <!-- NEWS CARDS -->
-    <div class="news-cards">
-      <div>
-        <img src="https://i0.wp.com/www.gamerfocus.co/wp-content/uploads/2023/01/Anime-Awards-2023-nominados-como-votar-y-donde-ver-los-premios-de-Crunchyroll-Anime-del-ano.jpg?resize=640%2C360&ssl=1" alt="" />
-        <h3 id="Animes del año">"Animes del año".</h3>
-        <p>Attack on Titan Final Season parte 2
-          Cyberpunk: Edgerunners – GANADOR<br>
-          Demon Slayer: Kimetsu no Yaiba Entertainment District Arc<br>
-          Lycoris Recoil<br>
-          Ranking of Kings (parte 2)<br>
-          SPY x FAMILY<br>
-        </p>
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="https://i0.wp.com/www.gamerfocus.co/wp-content/uploads/2023/03/Mejor-anime-original.png?resize=640%2C360&ssl=1" alt="" />
-        <h3 id="Mejor anime">Mejor animes Originales.</h3>
-        <p>BIRDIE WING -Golf Girls’ Story-<br> 
-          Healer Girl<br> 
-          Lycoris Recoil – GANADOR<br>
-          The Orbital Children<br>
-          Vampire in the Garden<br>
-          YUREI DECO<br>
-        </p>
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="https://i0.wp.com/www.gamerfocus.co/wp-content/uploads/2023/03/Anime-Awards-2023-todos-los-ganadores-de-la-gala-de-Crunchyroll-Mejor-diseno-de-personajes-1.png?resize=640%2C360&ssl=1" alt="" />
-        <h3 id="Mejores diseños de Personajes">Mejor Diseño de Personajes.</h3>
-        <p>Cyberpunk: Edgerunners<br>
-          Demon Slayer: Kimetsu no Yaiba Entertainment District Arc – GANADOR<br>
-          JoJo’s Bizarre Adventure Stone Ocean<br>
-          My Dress-Up Darling<br>
-          Ranking of Kings<br> 
-          SPY x FAMILY<br>
-        </p>
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="https://i0.wp.com/www.gamerfocus.co/wp-content/uploads/2023/03/Anime-Awards-2023-todos-los-ganadores-de-la-gala-de-Crunchyroll-Mejor-serie-nueva.png?resize=640%2C360&ssl=1" alt="" />
-        <h3 id="Mejores series nuevas animadas">Mejor serie nueva animadas.</h3>
-        <p>Call of the Night<br>
-          Cyberpunk: Edgerunners<br>
-          Lycoris Recoil<br>
-          My Dress-Up Darling<br>
-          SPY x FAMILY – GANADOR<br>
-          Ya Boy Kongming!<br>
-        </p>
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-      </div>
-    </div>
+<!-- Seccion de portafolio-->
+    <section id="Portafolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <a href="blog de anime/blog de anime.html" target="_blank" class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/Proyecto 1.jpg" alt="">
+                <div class="info">
+                    <h4>Mundo anime</h4>
+                    <h5>Descripcion del Trabajo</h5>
+                    <p>"Explora el emocionante mundo del anime en [Mundo anime]. Noticias, análisis y curiosidades de tus personaj. ¡Únete a la aventura anime ahora!"</p>
+                </div>
+            </a>
+            <a href="Nueva carpeta/Juego dino nadando.html" target="_blank" class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Juego divertido</h4>
+                    <h5>Descripcion del Juego</h5>
+                    <p>"¡Bienvenido a [Juego Dino Nadando]! Sumérgete en una experiencia única con mi emocionante juego web. Desafíos, diversión y entretenimiento te esperan. ¡Únete y comienza la aventura ahora!"</p>
+                </div>
+            </a>
+            <a href="peluqueria/sitio simple.html" target="_blank" class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/Barberia.jpg" alt="">
+                <div class="info">
+                    <h4>Sitio web de peluqueria</h4>
+                    <h5>Descripcion del Trabajo</h5>
+                    <p>Este es el sitio de una peluqueria de un vecino amigo mio</p>
+                </div>
+            </a>
+            <a href="reloj/Reloj digital.html" target="_blank" class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/Reloj.jpg" alt="">
+                <div class="info">
+                    <h4>Reloj Digital </h4>
+                    <h5>Descripcion del Proyecto</h5>
+                    <p>Desarrollé un reloj digital interactivo utilizando JavaScript para proporcionar la hora actual de manera precisa.</p>
+                </div>
+            </a>
+            <a href="imagen/galeria de imagenes.html" target="_blank" class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/proyecto 4.jpg" alt="">
+                <div class="info">
+                    <h4>Galería de Imagenes</h4>
+                    <h5>Descripcion del Proyecto</h5>
+                    <p>Esta es una galeria de fotos muy inpresionante espero que le guste </p>
+                </div>
+            </a>
+        </div>
+    </section>
 
-    <!-- third card -->
-    <section class="cards-banner-two">
-      <div class="content">
-        <h2 id="Paginas para ver anime">Donde se puede ver Animes de todo tipo.</h2>
-        <!-- lorem 30 -->
-        <p>Te contamos cuáles son algunas de las mejores alternativas online para ver anime gratis y legal<br>
-          Crunchyroll<br>
-          Funimation<br>
-          Pluto TV<br>
-          Anime Lab<br>
-          CONtv + Comics.<br>
-        </p>
-        <a target="_blanck" href="https://www.mundodeportivo.com/urbantecno/tecnologia/las-mejores-paginas-web-para-ver-anime" class="btn">Learn More <i class="fas fa-chevron-right"></i></a>
-      </div>
-      <br>
-      <br>
-<br>
-<br>
-<br>
-  <!-- Footer -->
-  <footer class="footer">
-    <h3>Blog de anime Copyright</h3>
-  </footer>
+    <!-- Seccion footer-->
+    <footer id="contacto">
+        <h3>Mis formas de Contacto</h3>
+            <!-- Icono de las redes sociales-->
+                <div>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/malikofficialok/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <p>Correo: malikkhadimgadiagachavez@gmail.com</p>
+                </div>
+    </footer>
 
-  <!-- Scroll Reveal -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="main.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
